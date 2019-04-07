@@ -1,0 +1,80 @@
+.thumb:hover{                                   
+background: none;                               
+color: black;                                   
+border: 1px solid black;                        
+box-shadow: 0px 5px 10px #427388;               
+}                                               
+.thumb-play:hover{                              
+background: none;                               
+color: black;                                   
+border: 1px solid black;                        
+box-shadow: 0px 5px 10px #427388;               
+}                                               
+.zoom {                                         
+display:inline-block;                           
+position: relative;                             
+cursor: zoom-in;                                
+}                                               
+#thumbs{                                                                                                         
+margin-top:1%;                                                                                                   
+margin-left: 2.1%;                                                                                               
+margin-right: 2.1%;                                                                                              
+}                                                                                                                
+#thumbs img{                                                                                                     
+width:125px;                                                                                                     
+height:125px;                                                                                                    
+cursor:pointer;                                                                                                  
+}                                                                                                                
+.big-image{                                                                                                      
+width:98%;                                                                                                       
+display: block;                                                                                                  
+margin-left: auto;                                                                                               
+margin-right: auto;                                                                                              
+}                                                                                                                
+/* iPhone 6, 7, & 8 in portrait */                                                                               
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {  
+.breadcrumb{                                                                                                     
+margin-top:23%;                                                                                                  
+padding-left:1%;                                                                                                 
+}                                                                                                                
+#thumbs{                                                                                                         
+margin-left: 0;                                                                                                  
+margin-right: 0;                                                                                                 
+}                                                                                                                
+#thumbs img{                                                                                                     
+width:67px;                                                                                                      
+height:67px;                                                                                                     
+margin-left:1%;                                                                                                  
+}                                                                                                                
+.is-text-product{                                                                                                
+font-size:0.7rem;                                                                                                
+}                                                                                                                
+#charNum{                                                                                                        
+font-size:0.7rem;                                                                                                
+margin-top:1%;                                                                                                   
+}                                                                                                                
+}                                                                                                                
+/* iPhone 6, 7, & 8 Plus in portrait */                                                                          
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {  
+#thumbs img{                                                                                                     
+width:75px;                                                                                                    
+height:75px;                                                                                                   
+}                                                                                                                
+.is-text-product{                                                                                                
+font-size:0.7rem;                                                                                              
+}                                                                                                                
+#charNum{                                                                                                        
+font-size:0.7rem;                                                                                              
+margin-top:1%;                                                                                                 
+}                                                                                                                
+                                                                                                               
+}                                                                                                                
+/* For 1366 Resolution */                                                                                       
+@media only screen and (min-width: 1030px) and (max-width: 1366px){                                              
+#thumbs img{                                                                                                     
+width:107px;                                                                                                   
+height:107px;                                                                                                  
+}                                                                                                                
+                                                                                                               
+}                                                                                                                
+
